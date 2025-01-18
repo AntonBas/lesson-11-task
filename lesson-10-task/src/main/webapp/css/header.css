@@ -1,0 +1,39 @@
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	color: white;
+	padding: 10px 20px;
+}
+
+.header-container h1 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.sidebar-toggle {
+	background: none;
+	border: none;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.sidebar-toggle:hover {
+	color: #aaa;
+}
+
+.logout-button {
+	background-color: #d9534f;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.logout-button:hover {
+	background-color: #c9302c;
+}
